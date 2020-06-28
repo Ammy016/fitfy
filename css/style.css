@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+  color:#000;
+}
+
+#landing{
+    background:url('../images/landing-back.jpg');
+    min-height: 100vh;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+#heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
+#heading h2{
+    padding: 10px;
+    margin:10px;
+    font-size: 36px;
+
+}
+
+#heading a{
+    padding: 10px;
+    margin:30px;
+    color:#000;
+    text-decoration: none;
+    border:#000 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-right:20px;
+    height:20px;
+}
+
+#heading a:hover{
+    color: #000;
+    background-color: white;
+    opacity:0.7;
+}
+
+
+#showcase {
+    height: 95vh;
+   display: flex;
+   clear: both;
+   flex-direction: column;
+   justify-content:center;
+  align-items:center;
+}
+
+#showcase p{
+    margin: 15px;
+    font-size: 25px;
+    line-height: 1.6;
+    max-width: 400px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Yellowtail', cursive;
+}
+
+#showcase a{
+    padding: 10px;
+    margin:50px;
+    color:#000;
+    text-decoration: none;
+    border: #000 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+#showcase a:hover{
+    opacity: 0.7;
+    
+}
+
+#services{
+    /* border:1px solid #000; */
+    border-radius: 10px;
+    width:1000px;
+    margin: auto;
+    margin-top: 100px ;
+    background-color: beige;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.serv-1{
+    margin:15px;
+    background: url('../images/fitness-tracker.jpg');
+    height: 300px;
+    width:300px;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.serv-1 p{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    top:100px;
+    
+}
+
+.serv-1 a{
+    padding: 10px;
+    margin:10px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border:#000 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    
+}
+
+.serv-1 a:hover{
+    color: #000;
+    background-color: white;
+    opacity:0.7;
+}
+
+.serv-2{
+    margin:15px;
+    background: url('../images/analytics.jpg');
+    height: 300px;
+    width:300px;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.serv-2 p{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    top:100px;
+    
+}
+
+.serv-2 a{
+    padding: 10px;
+    margin:10px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border:#000 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    
+}
+
+.serv-2 a:hover{
+    color: #000;
+    background-color: white;
+    opacity:0.7;
+}
+
+#footer{
+
+    margin-top:100px;
+    padding: 0;
+    height: 100px;
+    background-color: slategray;
+    color: #000;
+
+    
+    
+    
+}
+
+#footer .company p{
+    margin: 15px;
+    padding:8px ;
+    
+    
+}
+
+.company{
+    float:left;
+}
+#social-media{
+    float :right;
+}
+
+.linkedin img{
+    height:20px;
+    width:20px;
+}
