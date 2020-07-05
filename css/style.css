@@ -178,34 +178,19 @@ body{
     opacity:0.7;
 }
 
-#footer{
-
-    margin-top:100px;
-    padding: 0;
-    height: 100px;
-    background-color: slategray;
-    color: #000;
-
-    
-    
-    
+#footer-wrapper{
+    background-color: bisque;
+    font-size:20px;
+    height:100px;
+    text-align: center;
 }
 
-#footer .company p{
-    margin: 15px;
-    padding:8px ;
+.footer-content{
     
-    
+    border: #000 solid 1px;
 }
 
-.company{
-    float:left;
-}
-#social-media{
-    float :right;
-}
-
-.linkedin img{
-    height:20px;
-    width:20px;
+.footer-content p{
+    
+    margin:10px auto;
 }
