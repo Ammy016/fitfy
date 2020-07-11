@@ -198,8 +198,9 @@ body{
 #footer-wrapper{
     background-color: #264d73;
     font-size:20px;
-    height:300px;
-    text-align: center;
+    height:250px;
+    position: relative;
+   
 }
 
 
@@ -207,9 +208,20 @@ body{
 .footer-content {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    color: dodgerblue;
+    color: #111;
     
 }
+.copyright{
+  background: rgb(9, 163, 224);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
 
 .links ul{
   list-style: none;
@@ -223,7 +235,35 @@ body{
 
 .footer-about{
   grid-column: span 2;
+  text-align: start;
+  padding:20px ;
+  font-family: 'Courier New', Courier, monospace;
+ 
 }
+
+.contact-us input , .contact-us textarea{
+ 
+
+  opacity: 50%;
+  width:70%;
+  padding: 10px;
+  margin: 3px auto;
+}
+
+form h3{
+  padding: 5px;
+}
+
+.contact-us .btn{
+  cursor: pointer;
+  margin: 2px auto;
+  text-align: center;
+}
+
+.contact-us .btn:hover{
+  background: #444;
+}
+
 h2 {
     font-size: 45px;
     font-weight: 300;
